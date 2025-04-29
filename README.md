@@ -12,4 +12,4 @@ so for instance you'd need 12 beet seeds, 1 for cooking, 1 to ship, and 10 for t
 It has a list of all the plantable crops on the right side, and on the left is the "fill the remaining space with the best one" calculations.
 It takes the amount of space you have, the amount of space used by other things, the amount of budget available, etc. into account to tell you what fraction of your space to fill with your best vs. second best crop.
 
-Right now there's a bit of an issue displaying the full list of crops when you choose "Island/greenhouse" for the season (because it is too long to fit in the window) but I hope to patch that soon.
+
