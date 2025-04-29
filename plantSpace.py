@@ -34,8 +34,10 @@ def do_plants():
         if season.get() in plant.season and plant.sources in availableSources:
             plant.show = True
             availablePlants.append(plant.name)
-            
-            plant.frame.grid()
+            if availablePlants.index(plant.name)>=22:
+                plant.frame.grid(column=1,row=availablePlants.index(plant.name)-21)
+            else:
+                plant.frame.grid(column=0,row=availablePlants.index(plant.name)+1)
             #print(f"It should have put {plant.name} on the screen")
         else:
             plant.frame.grid_remove()
